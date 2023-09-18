@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<h1 style="font-size: 50px"><center>Marketing</center></h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Dodajte svoj CSS fajl ovde -->
+</head>
+<body style="background-color: #EBE4D1">
+    <header>
+<img src="https://www.feedough.com/wp-content/uploads/2020/08/what-is-marketing.png" alt="Trulli" width="500" height="333">
+        <nav>
+            <ul>
+                <li><a href="#sta-je-marketing">Šta je marketing</a></li>
+                <li><a href="#zasto-je-marketing-vazan">Zašto je marketing važan</a></li>
+                <li><a href="#vrste-marketinga">Vrste marketinga</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="background-color: #B4B4B3" id="sta-je-marketing">
+        <h2 style="background-color: #B4B4B3">Šta je marketing</h2>
+        <p style="background-color: #B4B4B3">
+            Marketing je proces planiranja i izvršenja strategija za promociju i prodaju proizvoda ili usluga. To uključuje istraživanje tržišta, identifikaciju ciljne publike i razvoj marketinških kampanja.
+        </p>
+    </section>
+
+    <section style="background-color: #FFB000"  id="zasto-je-marketing-vazan">
+        <h2>Zašto je marketing važan</h2>
+        <p>
+            Marketing je ključni element uspešnog poslovanja jer pomaže kompanijama da privuku nove klijente, očuvaju postojeće klijente i ostvare rast. Bez efikasnog marketinga, proizvodi i usluge mogu ostati neprimećeni na tržištu.
+        </p>
+    </section>
+
+    <section style="background-color: #E55604" id="vrste-marketinga">
+        <h2>Vrste marketinga</h2>
+        <ul>
+            <li>
+                <h3>Digitalni Marketing</h3>
+                <p>Digitalni marketing koristi online kanale kao što su društvene mreže, e-pošta i pretraga kako bi se promovisali proizvodi i usluge.</p>
+            </li>
+            <li>
+                <h3>Tradicionalni Marketing</h3>
+                <p>Tradicionalni marketing obuhvata televiziju, radio, štampane medije i druge tradicionalne metode promocije.</p>
+            </li>
+            <li>
+                <h3>Content Marketing</h3>
+                <p>Content marketing fokusira se na kreiranje i deljenje relevantnog i korisnog sadržaja kako bi se privukla ciljna publika.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Ako imate pitanja ili želite saznati više o marketingu, kontaktirajte nas putem forme ispod.</p>
+        <form action="obrada_forme.php" method="POST">
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="poruka">Poruka:</label>
+            <textarea id="poruka" name="poruka" rows="4" required></textarea>
+
+            <button type="submit">Pošaljite</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Adnan Pašić</p>
+    </footer>
+</body>
+</html>
+
